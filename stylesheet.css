@@ -72,7 +72,7 @@ li a {
 li a {
     display: block;
     color: #00a844;
-    font-size: 10px;
+   /* font-size: 10px; */
     text-align: center;
     text-shadow: 1px 1px #046b00;
     padding: 14px 16px;
