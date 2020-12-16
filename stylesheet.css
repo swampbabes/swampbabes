@@ -72,7 +72,7 @@ li a {
 li a {
     display: block;
     color: #00a844;
-    font-size: 8px;
+    font-size: 10px;
     text-align: center;
     text-shadow: 1px 1px #046b00;
     padding: 14px 16px;
@@ -123,9 +123,10 @@ li a:hover {
     background-attachment: fixed;
     background-position: bottom;
 }
-
+/*
    @media (max-width: 480px) {
     li a {
 	    font-size: 30px;
         line-height:115%;
 	}
+*/
