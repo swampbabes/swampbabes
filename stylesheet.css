@@ -55,7 +55,7 @@ li {
     width: 33%;
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 501px) {
 li a {
     display: block;
     color: #00a844;
@@ -68,11 +68,11 @@ li a {
 }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
 li a {
     display: block;
     color: #00a844;
-    font-size: 12px;
+    font-size: 8px;
     text-align: center;
     text-shadow: 1px 1px #046b00;
     padding: 14px 16px;
