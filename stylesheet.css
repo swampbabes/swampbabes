@@ -55,16 +55,35 @@ li {
     width: 33%;
 }
 
+@media screen and (min-width: 601px) {
 li a {
     display: block;
     color: #00a844;
-    font-size: 16px;
+    font-size: 2vw;
     text-align: center;
-    text-shadow: 10px 15px #ff0000;
+    text-shadow: 2vw 1vw #ff0000;
     padding: 14px 16px;
     text-decoration: none;
     background-color: ;
 }
+}
+
+@media screen and (max-width: 600px) {
+li a {
+    display: block;
+    color: #00a844;
+    font-size: 14px;
+    text-align: center;
+    text-shadow: 12px 11px #ff0000;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: ;
+}
+}
+
+
+
+
 
 /*
 li a:hover {
