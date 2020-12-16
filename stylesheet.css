@@ -61,7 +61,7 @@ li a {
     color: #00a844;
     font-size: 2vw;
     text-align: center;
-    text-shadow: 2vw 1vw #ff0000;
+    text-shadow: 1vw 1vw 0.1vw #ff0000;
     padding: 14px 16px;
     text-decoration: none;
     background-color: ;
@@ -72,9 +72,9 @@ li a {
 li a {
     display: block;
     color: #00a844;
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
-    text-shadow: 12px 11px #ff0000;
+    text-shadow: 1px 1px #046b00;
     padding: 14px 16px;
     text-decoration: none;
     background-color: ;
