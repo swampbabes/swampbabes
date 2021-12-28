@@ -84,7 +84,7 @@ li a {
     display: block;
     font-family: Conv_PressStart2P-vaV7, Helvetica, Arial, sans-serif;
     color: white;
-    font-size: 12px; 
+    font-size: 11px; 
     text-align: center;
     text-shadow: 1px 1px #046b00;
     padding: 14px 16px;
@@ -94,7 +94,13 @@ li a {
 }
 
 
-
+@media screen and (max-width: 500px) {
+.mobilefont {
+      font-size:18px;
+      color: darkgreen;
+    text-shadow: 1px 1px white;
+    }
+}
 
 
 /*
