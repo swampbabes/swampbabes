@@ -96,7 +96,7 @@ li a {
 
 @media screen and (max-width: 500px) {
 .mobilefont {
-      font-size:16px;
+      font-size:15px;
       color: darkgreen;
     text-shadow: 1px 1px white;
     }
