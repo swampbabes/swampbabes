@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+    <title>swampbabes</title>
+<head>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="swamp babes, swampbabes, video games, video game art, queer spaces, diy, games, new media, rochester" />
+<style>
+
+body {
+       /* max-width: 650px; */
+    background-image: url('images/swampbabesbg3.png');
+      background-repeat: repeat;
+
+    }
+    
+h1 { color: white;
+    font-size: 40px;
+      line-height: 1.3;
+    padding-left: 0px;
+    }
+    
+    p {
+        background-color: #3cbcfc;
+        color: #a72799;
+          padding: 15px;
+    }
+    
+    a {
+        background-color: lightpink;
+    }
+
+.bodymargin {
+        padding-left: 15px;
+    }
+
+.table {
+    display: table;
+    max-width: 100%;
+    margin: auto;
+    float: left;
+    }
+.table-row {
+    display: table-row;}
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    margin: auto;
+    }
+.table-cell-title {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    margin: auto;
+    font-size: 22px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+    color: #b0e070;
+    }
+    
+div#table-cell-title a:link { color: #b0e070; 
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    margin: auto;
+    font-size: 22px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+    text-decoration: none;
+    }
+div#table-cell-title a:visited { color: #b0e070; 
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    margin: auto;
+    font-size: 22px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+    text-decoration: none;
+    }
+div#table-cell-title a:hover { color: #b0e070; 
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    margin: auto;
+    font-size: 22px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+    text-decoration: none;
+    }
+div#table-cell-title a:active { color: #b0e070; 
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    margin: auto;
+    font-size: 22px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+    text-decoration: none;
+    }
+
+ .table-cell-sub {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    margin: auto;
+    font-size: 11px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+    color: #e88888;
+    }
+
+.table-cell2 {
+    display: table-cell;
+    display: table-cell;
+    vertical-align: middle;
+
+    margin: auto;
+    font-size: 11px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+    color: #e88888;
+    text-align: justify;
+    text-justify: inter-word;
+    }
+
+.tablespace {
+    display: table;
+    width: 6%;
+    margin: auto;
+    float: left;
+    }
+
+.space {
+	font-size: 24px;
+}
+
+    .videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+    max-width: 600px
+}
+    
+.responsive-image4 {
+  height: 225px;
+  width: 100%;
+  max-width: 580px;
+  align-content: center;
+}
+    
+
+ /*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF FOUR  */
+.span_4_of_4 {
+	width: 100%;
+}
+.span_3_of_4 {
+	width: 74.6%;
+}
+.span_2_of_4 {
+	width: 49.2%;
+}
+.span_1_of_4 {
+	width: 23.8%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
+}    
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 50%; }
+}    
+
+
+h1 span{
+display: inline-block;
+} 
+    
+/*collapse */
+@media screen and (max-width: 500px) {
+.collapsible {
+  background-color: lightpink;
+  color: #611e06;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  border-radius: 12px;
+  border: 2px solid #4CAF50;
+}
+    }
+@media screen and (max-width: 500px) {
+.active, .collapsible:hover {
+  background-color: white;
+}
+    }
+    
+@media screen and (min-width: 501px) {
+.collapsible {
+  background-color: lightpink;
+  color: #611e06;
+  cursor: pointer;
+  padding: 18px;
+  width: 70%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  border-radius: 12px;
+  border: 2px solid #4CAF50;
+}
+    }
+@media screen and (min-width: 501px) {
+.active, .collapsible:hover {
+  background-color: white;
+}
+    }
+    
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: pink;
+}
+    
+    
+.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color:white;
+    font-size: 7px;
+    }
+    
+.blocktext2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color:white;
+    font-size: 12px;
+    }
+</style>
+</head>
+
+
+  <!--
+<ul>
+    <li><a style="padding-right: 50px" href="/">swampbabes <img src="images/skull.gif">    <li><a style="padding-right: 50px" href="/">swampbabes <img src="images/skull.gif">     <li><a style="padding-right: 50px" href="/">swampbabes <img src="images/skull.gif"></a></li></ul><br><br>-->
+    
+        
+    <ul> <li style="width: 100%"><a href="/" class="mobilefont">s w a m p b a b e s </a></li></ul>
+            <ul>
+    <li style="width: 33%"><a href="exhibitions.html">projects </a></li> 
+  <li style="width: 33%"><a href="datalog.html">about </a></li>
+        <li style="width: 34%"><a href="links.html">resources </a></li></ul>
+            
+
+
+
+
+
+         <!--space-->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="space">&nbsp;</span></td>
+</tr>
+</table>
+        
+    <table width="100"><h1>swampbabes <span>(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧</span> rochester ny usa</h1></table>
+  <!--  <div class="bodymargin"> -->
+    
+    
+<button type="button" class="collapsible" style="letter-spacing: 10px;"><img src="images/skull.gif"> news <img src="images/skull.gif"></button>
+<div class="content">
+  <p style="color:white;">
+    some words from nilson:<br><br>
+      hi folx ✧ <br><br>it has been a challenging, absolutely depleting year but i am happy to say swampbabes has kept busy. Taylor McCue and i raised a lot of money for over 200 queer game artists on itch.io in June, which is "Pride Month" here in the states, our way of taking a bit back from the claws of an ever growing rainbow capitalism.  i know the money earned is such a tiny amount, maybe not even some of the artists' monthly rent, but i hope it did some good for all those involved. we look forward to doing it next year!<br><br>swampbabes also had its first screening in a very long time - SCREEN\DOOR showed in the Visual Studies Workshop's microcinema here in Rochester, NY, and streamed live on their Twitch page, too. It was a little strange, doing anything during the continued pandemic, but everyone involved with the event was diligent to keep things safe. Many of the artists involved are folx from the swampbabes discord, which has grown this year into a small but lively community of game makers, artists, and queer folx from all around the world.<br><br>If you stumble upon this page, please sign up for the swampbabes newsletter or join the discord or send us an email. swampbabes has been a very slow-going project (we don't even have social media yet lol...). Look out for future swampbabes projects, maybe some live-streaming performances if the energy is there. I still want to show Bitsy games IRL. And there will definitely be a Queer Games Bundle 2022 supported by swampbabes. I'm not sure what else to say, as the future is incredibly unpredictable, and the present incredibly unstable. I'll keep things brief. Maybe 2022 will be the year swampbabes evolves from a no-profit organization to a non-profit 501c3... But yeah, please hit us up, friend!
+      <br><br> - nilson carroll, december 27, 2021
+    
+    </p>
+</div>
+    
+    <br><br>
+        <button type="button" class="collapsible" style="letter-spacing: 10px;"><img src="images/skull.gif"> calls &emsp; <span>for</span>&emsp;  <span>work</span> <img src="images/skull.gif"></button>
+<div class="content">
+  <p>        <img src="images/bitsy.gif" style="width:10%"><br>
+        <strong>calls for work:</strong><br><br>Our hope was to show more queer/art games in physical locations in Rochester, New York, but things didn't go quite as planned. We're still accepting submissions + proposals + programming ideas for future exhibitions though (especially online programming)!<br><br>
+        We are looking toward putting together a <strong>Queer <a href="https://ledoux.itch.io/bitsy" style="font-size:20px; text-decoration:none; background:#ffffff00">Bitsy</a> exhibition</strong> to be shown in physical location(s)! If you make Bitsy games, we want to see them (especially LGBTQ+ and BIPOC makers/artists/devs)!
+  <br><br>
+        Do you have a workshop or other event you'd like to propose? Interested in a virtual open projector/perfomance night? Get in touch! Email us at swampbabes3 [at] gmail.com < 3 <br><br>
+
+We know that shit seems dire right now, but we do believe in all of you ~ stay safe and healthy ~</p>
+</div>
+    <br><br>
+<button type="button" class="collapsible" style="letter-spacing: 10px;"><img src="images/skull.gif"> mission + news letter <img src="images/skull.gif"></button>
+<div class="content">
+  <p> swampbabes is a tiny, artist-run organization in Rochester, New York devoted to fostering a games/art/queer local/regional community and inclusive space. we're interested in sharing experimental, non-commercial, renegade games-related artworks and projects and providing a platform for diverse voices and bodies outside the structures of the already-established "art world" and "games industry." swampbabes is not seeking profit in any way and is against competition. all are welcome &#10084; 
+        <br><br><a href="https://forms.gle/nXbNXcZdEDkMLfCS8" style="font-size:20px; text-decoration:none; color: #005000">&#9905; sign up for our email newsletter</a>
+        
+        <br><br>swampbabes was made up in the summer of 2019 &#10084;</p>
+</div>
+        <br><br>
+        <button type="button" class="collapsible" style="letter-spacing: 10px;"><img src="images/skull.gif"> past news <img src="images/skull.gif"></button>
+<div class="content"><br><br>
+    <a href="http://www.vsw.org/vsw-salon-series/dec-9-screen-door/"><img src="images/videopulp.jpg" style="width:10%"><br></a>
+  <strong>ENTER THE SCREEN\DOOR <br>December 9, 2021</strong><br><br>  
+    7PM EST in the <a href="http://www.vsw.org/vsw-salon-series/dec-9-screen-door/">Visual Studies Workshop Microcinema (also streaming on Twitch)</a><br>
+
+PROOF OF VACCINATION REQUIRED FOR ENTRY. Face Masks must be worn by all participants. Seating is limited.<br>
+
+[[CONTENT WARNING: flashing lights, loud sounds, and content about mental health]]<br><br>
+
+    <em>SCREEN/DOOR</em> will feature several members and friends of the swampbabes community across the earth working in various genres and mediums, with a common interest in radical (video) game making, playing, and exhibiting. These works deal with the video screen as door, wall, and window, many with a conflicted sense of dread or longing. Includes games, video, and performance from Cody Filardi, gg noni, Mariken and fotocopiadora, Evan Bobrow, Peter Basma-Lord, nilson carroll, Taehee Whang, and others. This program will be in-person in the VSW microcinema and will also be livestreaming via Twitch.
+    <br><br><hr><br>
+                    <a href="https://queergamesbundle.itch.io"><img src="images/queerbundle.png" style="width:10%"><br></a>
+<strong>Queer Games Bundle 2021</strong><br><br>
+        Bundle: June 1 - 31, 2021<br>
+        <a href="https://itch.io/b/861/queer-games-bundle-2021" style="font-size:20px; text-decoration:none;  background:#ffffff00">GET THE BUNDLE HERE</a><br><br>
+        swampbabes is proud to support the <a href="https://queergamesbundle.itch.io" style="font-size:15px; text-decoration:none;  background:#ffffff00">Queer Games Bundle 2021</a> on itch.io. The Queer Games Bundle is a new initiative to collaboratively support as many queer indie/micro/art devs and makers as possible while being pro-community, anti-competition, and outside the restrictive bounds of the "games industry" and AAA. All queer game makers are encouraged to enter their game through the game jam on <a href="https://itch.io/jam/queer-games-bundle-2021" style="font-size:20px; text-decoration:none;  background:#ffffff00">itch.io</a>.<br><br>
+        </div>
+
+        <br><br><br><div class="blocktext2"><strong>swampbabes 2023</strong></div>
+    <img src="images/ps2.png" style="  display: block; margin-left: auto; margin-right: auto;">
+
+
+<!--space-->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="space">&nbsp;</span></td>
+</tr>
+<tr>
+<td><span class="space">&nbsp;</span></td>
+</tr>
+</table>
+<!--end space-->
+<!--space-->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><span class="space">&nbsp;</span></td>
+</tr>
+<tr>
+<td><span class="space">&nbsp;</span></td>
+</tr>
+</table>
+<!--end space-->
+
+      <div class= "blocktext">even though the memories of evil fade away, their names will be kept</div>
+
+</div>
+</div>
+        
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
